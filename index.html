@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5982043a2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="js/modal.js" defer></script>
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="location_wrapper">
+                <div class="map">
+                    <a href="https://goo.gl/maps/pvA6Lxy8PbQucoPS7" class="map_item">
+                    </a>
+                </div>
+                <div class="header_location">Пишем расположение(адрес)</div>
+            </div>
+            <!-- modal (start) -->
+            <div class="modal hidden">
+                <div class="overlay"></div>
+                <div class="modal-wrapper">
+                    <div class="map">
+                        <a href="https://goo.gl/maps/pvA6Lxy8PbQucoPS7" class="map_item"> </a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2350.574871570952!2d30.33462!3d53.9037598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d051e6bb1ab55b%3A0x2b110ae287b8b8ef!2z0YPQuy4g0J_QtdGA0LLQvtC80LDQudGB0LrQsNGPIDI4LCDQnNC-0LPQuNC70ZHQsg!5e0!3m2!1sru!2sby!4v1673443816884!5m2!1sru!2sby"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- modal (end) -->
+        </div>
+
+    </header>
+
+
+
     <nav class="nav">
         <div class="container">
             <div class="menu">
                 <div class="menu_logo">
-                    <div class="menu_logo__wrapper">logo</div>
-                </div>                
+                    <div class="menu_logo__wrapper">
+                        <img src="/img/logo.png" alt="Логотип">
+                    </div>
+                </div>
                 <div class="menu_wrapper">
                     <ul class="menu">
                         <li class="menu_item"><a href="#" class="menu_item__link">Главная</a></li>
@@ -21,13 +59,14 @@
                         <li class="menu_item"><a href="#" class="menu_item__link">Контакты</a></li>
                     </ul>
                 </div>
-                <div class="menu_order">
+                <div class="menu_order btn-oval">
                     <div class="menu_order__btn">
-                        <a href="#" class="menu_order__link">Заказать</a>
+                        <a href="#" class="menu_order__link">Заказать звонок</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 </body>
+
 </html>
