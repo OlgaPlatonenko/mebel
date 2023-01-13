@@ -1,6 +1,7 @@
 @import url('navigation.css');
 @import url('header.css');
 @import url('location.css');
+@import url('mainpage.css');
 * {
     margin: 0;
     padding: 0;

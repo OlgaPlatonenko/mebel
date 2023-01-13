@@ -1,0 +1,53 @@
+.main_left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main_icons__icon1 {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icon/icon1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_icons__icon2 {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icon/icon2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_icons__icon3 {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icon/icon3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_icons__icon4 {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icon/icon4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_right {
+    width: 50%;
+}
+
+.main_right__img {
+    transform: rotate3d(4, 2, 0, 50deg);
+}
