@@ -1,6 +1,7 @@
 const btnLocation = document.querySelector('.location_wrapper');
-const modal = document.querySelector('.modal');
-const fr = document.querySelector('.my_map');
+const modal = document.querySelector('.mymodal');
+//const fr = document.querySelector('.my_map');
+const fr = document.querySelector('.map_item');
 
 btnLocation.addEventListener('click', () => {
     modal.classList.remove('hidden');
@@ -11,7 +12,7 @@ btnLocation.addEventListener('click', () => {
 
 modal.addEventListener('click', (event) => {
     const target = event.target;
-    if (target.classList.contains('overlay') || target.classList.contains('modal__close')) {
+    if (target.classList.contains('overlay') || target.classList.contains('mymodal__close')) {
         modal.classList.add('hidden');
     }
 });

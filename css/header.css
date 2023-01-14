@@ -22,7 +22,7 @@
     color: #99CB38;
 }
 
-.modal {
+.mymodal {
     width: 100%;
     padding-top: 5px;
     position: fixed;
@@ -44,7 +44,7 @@
     z-index: 2;
 }
 
-.modal-wrapper {
+.mymodal-wrapper {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -56,7 +56,7 @@
     border: 1px solid white;
 }
 
-.modal__close {
+.mymodal__close {
     position: absolute;
     display: block;
     width: 30px;

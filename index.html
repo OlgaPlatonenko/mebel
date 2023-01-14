@@ -29,18 +29,18 @@
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="hidden"></iframe>
                     </a>
                 </div>
-                <div class="header_location">Пишем расположение(адрес)</div>
+                <div class="header_location">Пишем расположение(адрес) </div>
             </div>
 
             <!-- modal (start) -->
-            <div class="modal hidden">
+            <div class="mymodal hidden">
                 <div class="overlay"></div>
-                <div class="modal-wrapper">
+                <div class="mymodal-wrapper">
                     <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2350.574871570952!2d30.33462!3d53.9037598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d051e6bb1ab55b%3A0x2b110ae287b8b8ef!2z0YPQuy4g0J_QtdGA0LLQvtC80LDQudGB0LrQsNGPIDI4LCDQnNC-0LPQuNC70ZHQsg!5e0!3m2!1sru!2sby!4v1673443816884!5m2!1sru!2sby"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <button type="button" class="modal__close">
+                    <button type="button" class="mymodal__close">
                     </button>
                 </div>
             </div>
@@ -57,7 +57,7 @@
             <div class="menu">
                 <div class="menu_logo">
                     <div class="menu_logo__wrapper">
-                        <img src="/img/logo.png" alt="Логотип">
+                        <img src="/img/logo.png" alt="Логотип" class="menu_logo__img">
                     </div>
                 </div>
                 <div class="menu_wrapper">
@@ -127,7 +127,28 @@
     </section>
 
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_logo">
+                    <div class="footer_logo__wrapper">
+                        <img src="/img/logo.png" alt="Логотип" class="footer_logo__img">
+                    </div>
+                    <div class="footer_logo__address menu_item__link footer_text"> г.Могилев ул.Ленинская, 5</div>
+                </div>
+                <div class="footer_parts footer_title">
+                    Разделы:
+                    <ul class="parts">
+                        <li class="parts_item"><a href="#" class="menu_item__link footer_text">Главная</a></li>
+                        <li class="parts_item"><a href="#" class="menu_item__link footer_text">Каталог товаров</a></li>
+                        <li class="parts_item"><a href="#" class="menu_item__link footer_text">Цены</a></li>
+                        <li class="parts_item"><a href="#" class="menu_item__link footer_text">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer_contacts footer_title">
+                    Контакты:
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

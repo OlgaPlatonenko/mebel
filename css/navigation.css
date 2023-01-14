@@ -13,6 +13,7 @@
 .menu_wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu_item {
@@ -51,4 +52,8 @@
 
 .menu_order:hover {
     background: linear-gradient(#FBD846, #d4f7a7)
+}
+
+.menu_logo__img {
+    width: 100px;
 }
