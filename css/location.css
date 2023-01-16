@@ -1,5 +1,10 @@
 .location_wrapper {
     display: flex;
+    justify-content: space-between;
+}
+.location_left{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .map_item {
