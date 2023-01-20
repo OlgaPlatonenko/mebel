@@ -1,0 +1,81 @@
+.mebel-list{
+display: flex;
+flex-wrap: wrap;
+
+margin-bottom: 80px;
+}
+
+.card{
+    max-width: 360px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 2px 2px rgb(206, 204, 204); 
+   
+}
+
+.card:hover{
+    box-shadow: 10px 5px 5px grey;
+}
+
+.card-header__image{
+    width: 100%;
+}
+
+.card_header__title{
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.card_body__describe{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card_body__price{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    color:#99CB38;
+    margin-top: 10px;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card_btn{
+    width: 30px;
+    height: 30px;
+    background-color: #b4b3b3;
+    border-radius: 50%;
+   position: relative;
+}
+
+.card_btn::after{
+    content: '\2b';
+    display: block;
+  color: white;
+  position: absolute;
+  left: 6px;
+  top: -5px;
+  font-size: 25px;
+  
+}
+.card_btn:hover{
+    cursor: pointer;
+    color:#99CB38;
+    font-size: 30px;
+}
+

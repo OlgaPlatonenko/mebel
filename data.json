@@ -1,0 +1,40 @@
+{
+  "products": [
+      {
+          "id": "321sd",
+          "img": "./img/image1.png",
+          "name": "Модель1",
+          "price": 10000
+      },
+      {
+        "id": "342f",
+        "img": "./img/image2.png",
+        "name": "Модел2",
+        "price": 20000
+    },
+    {
+      "id": "re54",
+      "img": "./img/image3.png",
+      "name": "Модель31",
+      "price": 30000
+  },
+  {
+    "id": "123",
+    "img": "./img/image3.png",
+    "name": "Модель4",
+    "price": 40000
+}, {
+  "id": "123",
+  "img": "./img/image3.png",
+  "name": "Модель5",
+  "price": 40000
+}, {
+  "id": "123",
+  "img": "./img/image3.png",
+  "name": "Модель44",
+  "price": 40000
+}
+
+  ]
+}
+
