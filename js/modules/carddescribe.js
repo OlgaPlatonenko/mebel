@@ -1,13 +1,12 @@
 export  function cardmodal(){
-    const card_btn = document.querySelector('.card_btn');
-   
-    card_btn.addEventListener('click',() => {
-        console.log('click');
+    const cardbtn = document.querySelectorAll('.card_btn');
+ 
+   cardbtn.forEach((btnItem,idx) => {
+    btnItem.addEventListener('click',() => {
+        console.log(idx);
     });
+   });
+
+   
 }
 
-
-/*
-card_btn.addEventListener('click',() => {
-    console.log('click');
-});*/
