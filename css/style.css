@@ -19,3 +19,7 @@
     margin: 0 auto;
     padding: 0 15 px;
 }
+
+body {
+    position: relative;
+}
