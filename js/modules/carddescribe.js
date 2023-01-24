@@ -3,7 +3,10 @@ export  function cardmodal(){
  
    cardbtn.forEach((btnItem,idx) => {
     btnItem.addEventListener('click',() => {
-        console.log(idx);
+        console.log(localStorage.getItem(idx));
+        //считать idx-ый элемент из localstorage
+        //убрать из класса hidden
+        //передать в innerText элемент
     });
    });
 
